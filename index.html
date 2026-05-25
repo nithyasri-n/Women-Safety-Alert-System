@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Safety Alert System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Women Safety Alert System</h1>
+
+        <p class="description">
+            Press the SOS button during emergency situations.
+        </p>
+
+        <button onclick="sendAlert()" class="sos-btn">
+            SOS ALERT
+        </button>
+
+        <div id="message"></div>
+
+        <div class="location-box">
+
+            <h3>Current Location</h3>
+
+            <p id="location">
+                Location not fetched yet
+            </p>
+
+            <button onclick="getLocation()" class="location-btn">
+                Get Location
+            </button>
+
+        </div>
+
+        <div class="contact-box">
+
+            <h3>Emergency Contacts</h3>
+
+            <input
+                type="text"
+                id="contact1"
+                placeholder="Enter Contact Name"
+            >
+
+            <input
+                type="text"
+                id="phone1"
+                placeholder="Enter Phone Number"
+            >
+
+            <button onclick="saveContact()" class="save-btn">
+                Save Contact
+            </button>
+
+            <div id="savedContact"></div>
+
+            <h3 class="stored-title">Stored Contacts</h3>
+
+            <ul id="contactList"></ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

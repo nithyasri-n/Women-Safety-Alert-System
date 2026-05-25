@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h1{
+    color: #d63384;
+}
+
+.description{
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.sos-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sos-btn:hover{
+    background-color: darkred;
+}
+
+.location-box{
+    margin-top: 30px;
+}
+
+.location-btn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-box{
+    margin-top: 30px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.save-btn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message{
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+#savedContact{
+    margin-top: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+.stored-title{
+    margin-top: 25px;
+}
+
+#contactList{
+    list-style-type: none;
+    padding: 0;
+}
+
+#contactList li{
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
